@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".DesPeliculas" >
+
+    <TextView
+        android:id="@+id/textnombrepeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="#0C0C0C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Imagenpeliinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/imagenaro" />
+
+    <TextView
+        android:id="@+id/textcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textdirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColor="#090808"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textsinapsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="SINOPSIS"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BDesatras"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Atras"
+        android:onClick="AntSelPelicula"
+        />
+
+</LinearLayout>

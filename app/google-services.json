@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "172808085100",
+    "project_id": "mincine-828e3",
+    "storage_bucket": "mincine-828e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172808085100:android:9cb43b6760a7790dbd0249",
+        "android_client_info": {
+          "package_name": "com.example.mincine2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172808085100-u9s8rcv1tbh2lq8ei5gkl4teg0p1lu26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mincine2",
+            "certificate_hash": "70843943101e071526b7d978edc5c39a7ed3486e"
+          }
+        },
+        {
+          "client_id": "172808085100-vjbeq54i4ob6j10v84bi2cb7bbb340uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc-sxrOUxp9C4GkYpeyeuM1bOFrgrqVco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172808085100-vjbeq54i4ob6j10v84bi2cb7bbb340uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
